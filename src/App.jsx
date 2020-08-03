@@ -15,8 +15,7 @@ export default () =>
         {/* <Aleatorio  max={100} min={1}></Aleatorio> */}
         <Card titulo="Com parametro 1"><ComParametro titulo="titulo segundo componente" subtitulo="subtitulo segundo componente" nota={6}></ComParametro></Card>
         <Card titulo="Com parametro 2"><ComParametro titulo="titulo segundo componente 2" subtitulo="subtitulo segundo componente 2" nota={8}></ComParametro></Card>
-        <Card titulo="Desafio aleatorio"><Aleatorio  max={100} min={1}></Aleatorio></Card>
+        <Card titulo="Desafio aleatorio"><Aleatorio max={100} min={1}></Aleatorio></Card>
         <Card titulo="Fragmento"><Fragmento></Fragmento></Card>
-        
     </div>
 
