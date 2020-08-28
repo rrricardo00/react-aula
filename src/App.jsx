@@ -9,6 +9,7 @@ import Familia from './components/default/familia';
 import Membro from './components/default/membro';
 import ListaAlunos from './components/repeticao/listaAlunos';
 import ListaProdutos from './components/repeticao/listaProduto';
+import Condicional from './components/condicional/condicional';
 
 
 
@@ -34,6 +35,10 @@ export default () =>
             <Card titulo="Fragmento" color="#509"><Fragmento></Fragmento></Card>
             <Card titulo="Lista alunos (repeticao)"><ListaAlunos></ListaAlunos></Card>
             <Card titulo="Tabela Produtos (repeticao)"><ListaProdutos></ListaProdutos></Card>
+            <Card titulo="Condicional">
+                <Condicional numero={20} usuario={{ nome: 'Ricardo' }}></Condicional>
+                <Condicional usuario={{ usuario: 'Josibaldo' }}></Condicional>
+            </Card>
         </div>
     </div>
 
