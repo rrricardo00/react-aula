@@ -10,7 +10,7 @@ import Membro from './components/default/membro';
 import ListaAlunos from './components/repeticao/listaAlunos';
 import ListaProdutos from './components/repeticao/listaProduto';
 import Condicional from './components/condicional/condicional';
-
+import DiretaPai from './components/comunicacaoComponentes/diretaPai'
 
 
 export default () =>
@@ -39,6 +39,7 @@ export default () =>
                 <Condicional numero={20} usuario={{ nome: 'Ricardo' }}></Condicional>
                 <Condicional usuario={{ usuario: 'Josibaldo' }}></Condicional>
             </Card>
+            <Card titulo="Comunicação Direta"><DiretaPai></DiretaPai></Card>
         </div>
     </div>
 
