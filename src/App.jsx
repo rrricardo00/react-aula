@@ -11,6 +11,7 @@ import ListaAlunos from './components/repeticao/listaAlunos';
 import ListaProdutos from './components/repeticao/listaProduto';
 import Condicional from './components/condicional/condicional';
 import DiretaPai from './components/comunicacaoComponentes/diretaPai'
+import IndiretaPai from './components/comunicacaoComponentes/indiretaPai'
 
 
 export default () =>
@@ -40,6 +41,7 @@ export default () =>
                 <Condicional usuario={{ usuario: 'Josibaldo' }}></Condicional>
             </Card>
             <Card titulo="Comunicação Direta"><DiretaPai></DiretaPai></Card>
+            <Card titulo="indireta Pai"><IndiretaPai></IndiretaPai></Card>
         </div>
     </div>
 
